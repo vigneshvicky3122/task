@@ -1,0 +1,18 @@
+// creat in your own resume in Json formate 
+
+
+
+let Myresume = {
+name : "VIGNESH A",
+age : "21 year's",
+qualification : "studied at Rathinam college of arts and science in coimbatore at the stream is B.com BPS in 2021 passed out",
+address : "AMS house, hospital junction, ozhalapathy(Po), palakkad(Dt), kerala PIN : 678557.",
+knownLanguage : "english , tamil , malayalam , hindi",
+activity : "traveling, music listener, playing kabaddi",
+strength : "hard working, motivation, time management, team work",
+AreaOfIntrest : "web development, app development, full-stack development,",
+achievements : "participated  in state meet kabaddi championship in first prize, completed on TCS online course",
+};
+
+let R = JSON.stringify(Myresume);
+console.log(R);
